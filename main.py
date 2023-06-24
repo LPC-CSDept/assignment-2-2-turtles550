@@ -5,6 +5,14 @@ def main():
     Use the same variables: celcius fahrenheit 
     ##################################################
     """
+    # Get the temperature in Celsius from the user
+    celcius = float(input("Enter the temperature in Celsius: "))
+
+    # Convert Celsius to Fahrenheit
+    fahrenheit = (celcius * 9/5) + 32
+
+    # Display the converted temperature in Fahrenheit with two decimal places
+    print("Fahrenheit: {:.2f}".format(fahrenheit))
 
     """
     ########################################
